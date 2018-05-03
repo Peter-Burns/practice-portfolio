@@ -13,7 +13,3 @@ $(window).on('scroll',function(){
        $('#top').attr('class','active'); 
     }
 });
-$('.btn').on('click',function(e){
-  e.preventDefault();
-  alert('form not yet implemented');
-});
